@@ -1,0 +1,7 @@
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+Data/cleaned_data.csv filter=lfs diff=lfs merge=lfs -text
+Data/modelling_data.csv filter=lfs diff=lfs merge=lfs -text
+Models/model_rf_gs.pickle filter=lfs diff=lfs merge=lfs -text
+Models/model_rf_gs_over.pickle filter=lfs diff=lfs merge=lfs -text
+Models/model_rf_gs_under.pickle filter=lfs diff=lfs merge=lfs -text
